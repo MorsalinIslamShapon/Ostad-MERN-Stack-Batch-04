@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Switcher</title>
+</head>
+<body>
+
+    /* 
+    3) Image Switcher
+    Instructions:
+    
+    Create an HTML file with an image element and two buttons.
+    
+    Use JavaScript to handle the button click events and switch the image source when a button is clicked.
+    
+    The first button should change the image to "image1.jpg" and the second button should change it to "image2.jpg".
+    */
+
+    <img style="width: 50%;" id="image" src="https://www.bssnews.net/assets/news_photos/2022/03/23/image-51915-1648040891.jpg" alt="Image 1"> <br>
+    <img style="width: 50%;" id="image" src="https://tntribune.com/wp-content/uploads/2021/08/feat_30d48d6e-7b84-4dfe-bf22-6306f8a2d403.jpg" alt="Image 2 "> <br>
+    <button id="btnImage1">Switch to Image 1</button>
+    <button id="btnImage2">Switch to Image 2</button>
+
+    <script>
+
+        // Get references to the elements in the DOM
+const imageElement = document.getElementById('image');
+const btnImage1 = document.getElementById('btnImage1');
+const btnImage2 = document.getElementById('btnImage2');
+
+// Function to switch the image source to "image1.jpg"
+function switchToImage1() {
+    imageElement.src = 'https://www.bssnews.net/assets/news_photos/2022/03/23/image-51915-1648040891.jpg';
+    imageElement.alt = 'Image 1';
+}
+
+// Function to switch the image source to "image2.jpg"
+function switchToImage2() {
+    imageElement.src = 'https://tntribune.com/wp-content/uploads/2021/08/feat_30d48d6e-7b84-4dfe-bf22-6306f8a2d403.jpg';
+    imageElement.alt = 'Image 2';
+}
+
+// Add click event listeners to the buttons
+btnImage1.addEventListener('click', switchToImage1);
+btnImage2.addEventListener('click', switchToImage2);
+
+    </script>
+</body>
+</html>

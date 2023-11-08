@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Counter</title>
+</head>
+<body>
+
+    /* 
+    2) Click Counter
+    Instructions:
+    
+    Create an HTML file with a button and a paragraph element to display the count.
+    
+    Use JavaScript to handle the button click event and increment the count each time the button is clicked.
+    
+    Display the updated count on the paragraph element. 
+    */
+
+
+    <p>Click count: <span id="count">0</span></p>
+    <button id="clickBtn">Click Me</button>
+
+    <script> 
+    // Get references to the elements in the DOM
+const countElement = document.getElementById('count');
+const clickBtn = document.getElementById('clickBtn');
+
+// Initialize the click count to 0
+let clickCount = 0;
+
+// Function to update the count and display it
+function updateClickCount() {
+    clickCount++;
+    countElement.textContent = clickCount;
+}
+
+// Add a click event listener to the button
+clickBtn.addEventListener('click', updateClickCount);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+</head>
+<body>
+
+    /* 
+    1) DOM Manipulation
+    Instructions:
+    
+    Create an HTML file with a button and a div element.
+    
+    Use JavaScript to handle the button click event and change the content of the div element.
+    
+    When the button is clicked, display a new message or image in the div element.
+
+     */
+    <div id="container">
+        
+    </div>
+    <button id="changeBtn">Click Here</button>
+
+    <script>
+const contentDiv = document.getElementById('container');
+const changeContentBtn = document.getElementById('changeBtn');
+
+changeContentBtn.addEventListener('click', () => {
+    contentDiv.textContent = 'DOM Manipulation Successfully change here!.';
+});
+
+    </script>
+</body>
+</html>
