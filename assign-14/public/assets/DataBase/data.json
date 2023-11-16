@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "imagePath": "images/employ-1.png",
+      "description": "Marketing Specialist",
+      "position": "Senior Marketing Manager"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "imagePath": "images/employ-2.png",
+      "description": "Software Engineer",
+      "position": "Lead Developer"
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "imagePath": "images/employ-3.png",
+      "description": "HR Manager",
+      "position": "Human Resources Director"
+    },
+    {
+      "id": 4,
+      "name": "Alice Williams",
+      "imagePath": "images/employ-4.png",
+      "description": "Graphic Designer",
+      "position": "Creative Director"
+    },
+    {
+      "id": 5,
+      "name": "Charlie Brown",
+      "imagePath": "images/employ-5.png",
+      "description": "Data Analyst",
+      "position": "Senior Data Scientist"
+    },
+    {
+      "id": 6,
+      "name": "Eva Davis",
+      "imagePath": "images/employ-6.png",
+      "description": "Customer Support Representative",
+      "position": "Support Team Lead"
+    }
+  ]
+  
