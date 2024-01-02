@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-bg{
+    background-color: rgb(230,212,192);
+}
